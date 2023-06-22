@@ -34,7 +34,17 @@ Para correr el sdk necesita crear un archivo `.env` y agregar las siguientes var
 
 >`WPP_CC`: Clave de comercio asignado
 >
->`WPP_KEY`: Secret Api Key 
+>`WPP_KEY`: Secret Api Key
+
+# Integración API Google recaptcha
+
+Se implementa la api Google recaptcha para el formulario de registro.
+
+En caso de algun problema tirar el siguiente comando:
+
+>'npm install --save react-google-recaptcha
+>
+>'npm audit fix
 
 Para conseguir las llaves para el entorno de desarrollo en testing vea la documentación oficial de [Transbank Developers](https://www.transbankdevelopers.cl/producto/webpay#webpay-plus)
 
